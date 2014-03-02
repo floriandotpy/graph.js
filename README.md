@@ -22,4 +22,14 @@ Check out index.htm for an example.
 
 Placement of the nodes is random and therefore not even remotely optimal.
 
+
+```
+var graphObj = {
+    0: {adj: [1]},
+    1: {adj: [2]},
+    2: {adj: [0]},
+    3: {adj: [0, 1]}
+};
+```
+
 ![Example of rendered graph](https://raw.github.com/florianletsch/graph.js/master/example.png)
