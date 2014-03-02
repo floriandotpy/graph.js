@@ -19,3 +19,7 @@ var graphObj = {
 ```
 
 Check out index.htm for an example.
+
+Placement of the nodes is random and therefore not even remotely optimal.
+
+![Example of rendered graph](https://github.com/floarinletsch/graph.js/raw/master/example.png)
