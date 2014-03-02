@@ -64,14 +64,3 @@ var GRAPH = function(){
         draw: draw
     }
 }();
-
-
-window.onload = function() {
-    var graphObj = {0: {adj: [1]}, 1: {adj: [2]}, 2: {adj: [0]}, 3: {adj: [0, 1]}};
-    var canvas = document.getElementById('canvas');
-    if (canvas.getContext) {
-        GRAPH.draw(canvas, graphObj);
-    } else {
-        console.log('no canvas support');
-    }
-};
