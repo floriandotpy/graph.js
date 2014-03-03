@@ -20,7 +20,7 @@ var graphObj = {
 
 Check out index.htm for an example.
 
-Placement of the nodes is random and therefore not even remotely optimal.
+Placement of the nodes is equally spreaded with a random jitter, but not even remotely optimal.
 
 
 ```

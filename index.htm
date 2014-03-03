@@ -5,7 +5,16 @@
     <script type="text/javascript" src="graph.js"></script>
     <script type="text/javascript">
         window.onload = function() {
-            var graphObj = {0: {adj: [1]}, 1: {adj: [2]}, 2: {adj: [0]}, 3: {adj: [0, 1]}};
+            var graphObj = {
+                0: {adj: [1]},
+                1: {adj: [2]},
+                2: {adj: [0]},
+                3: {adj: [0, 1]},
+                4: {adj: [0]},
+                5: {adj: [1]},
+                6: {adj: [2]},
+                7: {adj: [4]}
+            };
             var canvas = document.getElementById('canvas');
             if (canvas.getContext) {
                 GRAPH.draw(canvas, graphObj);
